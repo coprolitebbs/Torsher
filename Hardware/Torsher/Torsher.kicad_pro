@@ -45,11 +45,18 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|114900001|108110001|1a6b7a4f-833d-4273-80f6-aa67976df055|40e2cb1b-4d5c-4cd8-ad42-ca6054f44bb5",
+        "courtyards_overlap|121161067|108030001|1a6b7a4f-833d-4273-80f6-aa67976df055|585569ba-fcb3-4531-8212-db0c24383282",
+        "courtyards_overlap|123000001|108030001|1a6b7a4f-833d-4273-80f6-aa67976df055|3bd9f426-3422-4cfa-bb4a-d2d2afe78914",
+        "courtyards_overlap|127700001|108030001|1a6b7a4f-833d-4273-80f6-aa67976df055|a7a42c85-ec51-46ee-86ee-ce3af9320804",
+        "lib_footprint_issues|101300000|108169273|d6be46f1-ace4-4b87-9ae0-1ebaee7b2703|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|145600000|116045973|2588ec54-1ceb-4224-88ac-d9cbbf5cc7be|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -427,7 +434,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "../../../../../Torsher.dsn",
       "step": "",
       "vrml": ""
     },
