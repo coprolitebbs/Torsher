@@ -112,11 +112,11 @@
     (property "ki_keywords" "ESP8266 WiFi microcontroller ESP8266EX")
     (path "/662e4dc7-29a9-44f1-9227-4183e9a4ff75")
     (attr through_hole)
-    (fp_text reference "U1" (at 22 27) (layer "F.SilkS")
+    (fp_text reference "U1" (at 22 27) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1b82eb6b-903e-490f-a331-71beda04a732)
     )
-    (fp_text value "WeMos D1 Mini" (at 11.4 -4.96) (layer "F.Fab")
+    (fp_text value "WeMos D1 Mini" (at 11.4 -4.96) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e214b1c8-108e-4db0-bcff-933c3ee0b30e)
     )
